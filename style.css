@@ -16,7 +16,6 @@
   box-sizing: border-box;
   padding: 0;
   margin: 0;
-  scroll-behavior: smooth;
 }
 
 :root {
@@ -29,6 +28,10 @@
   --orange-main: #ffae00;
   --black-secondary: #111111;
   --transition-main: 300ms ease-in-out;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 body {

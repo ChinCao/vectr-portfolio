@@ -187,11 +187,27 @@
         </div>
         <form class="content-container">
           <div class="wrapper">
-            <input type="text" placeholder="Name" />
-            <input type="email" placeholder="Email" />
+            <input
+              type="text"
+              required
+              placeholder="Name"
+              name="Name"
+              autocomplete="name"
+            />
+            <input
+              type="email"
+              required
+              placeholder="Email"
+              name="Email"
+              autocomplete="email"
+            />
           </div>
-          <input type="text" placeholder="Subject" />
-          <textarea placeholder="Your message"></textarea>
+          <input type="text" placeholder="Subject" name="Subject" required />
+          <textarea
+            placeholder="Your message"
+            name="Subject"
+            required
+          ></textarea>
           <button type="submit">Submit</button>
         </form>
       </div>

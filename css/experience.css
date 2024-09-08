@@ -48,7 +48,9 @@
 }
 
 .experience p {
-  margin-top: 15px;
+  margin-top: 17px;
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.7);
 }
 
 @media (max-width: 600px) {

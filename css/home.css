@@ -58,6 +58,10 @@
   border-color: white;
 }
 
+.btn-contact a {
+  color: white;
+}
+
 @media (max-width: 780px) {
   .home .content {
     width: 100%;

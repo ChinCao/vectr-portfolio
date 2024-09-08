@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
+@import url("css/nav.css");
+@import url("css/home.css");
+@import url("css/about.css");
+@import url("css/skills.css");
+@import url("css/experience.css");
+@import url("css/contact.css");
+@import url("css/footer.css");
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+:root {
+  --open-sans: "Open Sans", sans-serif;
+  --montserrat: Montserrat, sans-serif;
+  --serif-display: "DM Serif Display", serif;
+  --text-main: #b7b7b7;
+  --black-main: rgb(0, 1, 2);
+  --white-main: #fff;
+  --orange-main: #ffae00;
+  --black-secondary: #111111;
+  --transition-main: 300ms ease-in-out;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.max-width {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+section {
+  padding: 6rem 0;
+}
+
+.max-width {
+  font-family: var(--montserrat);
+  color: var(--white-main);
+  display: flex;
+  padding: 0 2rem;
+}
+
+.title-container {
+  position: relative;
+  width: max-content;
+  height: max-content;
+}
+
+.title-container .title {
+  position: relative;
+  text-transform: uppercase;
+  color: var(--white-main);
+  width: max-content;
+  font-size: 35px;
+  font-weight: 300;
+  margin-bottom: 20px;
+}
+
+.title-container .title::before {
+  content: "";
+  position: absolute;
+  background: var(--white-main);
+  width: 100%;
+  height: 2px;
+  bottom: -20%;
+}
+
+.title-container .subtitle {
+  position: absolute;
+  text-transform: uppercase;
+  color: var(--orange-main);
+  bottom: 0;
+  right: 0;
+  padding-left: 7px;
+  background: var(--black-secondary);
+}

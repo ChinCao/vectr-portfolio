@@ -1,0 +1,25 @@
+footer {
+  padding: 0.5em 5%;
+  font-family: var(--montserrat);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+.socials {
+  display: flex;
+  gap: 10px;
+}
+
+.socials img {
+  cursor: pointer;
+  width: 20px;
+}
+
+@media (max-width: 535px) {
+  footer {
+    flex-direction: column;
+    justify-content: center;
+  }
+}

@@ -53,13 +53,18 @@
   background: var(--orange-main);
   color: var(--white-main);
   border: 1px solid transparent;
-  transition: var(--transition-main);
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
+    border-color 0.3s ease-in-out;
 }
 
 .about .content-container button:hover {
   border-color: var(--orange-main);
   color: var(--orange-main);
   background: transparent;
+}
+
+.about .content-container button:active {
+  transform: scale(0.98);
 }
 
 @media (max-width: 780px) {

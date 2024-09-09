@@ -1,5 +1,5 @@
 .skill {
-  background: #191919;
+  background: var(--black-tertiary);
   padding-bottom: calc(6rem - 30px);
 }
 
@@ -22,6 +22,7 @@
   background: #222;
   display: flex;
   padding: 1rem;
+  border: 1px solid transparent;
   text-align: center;
   flex-direction: column;
   align-items: center;
@@ -31,6 +32,12 @@
   border-radius: 5px;
   width: 300px;
   height: 300px;
+  transition: var(--transition-main);
+}
+
+.skill .skill-block:hover {
+  border-color: var(--white-main);
+  transform: scale(1.02);
 }
 
 .skill img {

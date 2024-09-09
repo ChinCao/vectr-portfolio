@@ -24,6 +24,7 @@
   --serif-display: "DM Serif Display", serif;
   --text-main: #b7b7b7;
   --black-main: rgb(0, 1, 2);
+  --black-tertiary: #191919;
   --white-main: #fff;
   --orange-main: #ffae00;
   --black-secondary: #111111;
@@ -99,4 +100,12 @@ section {
   right: 0;
   padding-left: 7px;
   background: var(--black-secondary);
+}
+
+.title-container #sub-2 {
+  background: var(--black-tertiary);
+}
+
+.title-container #sub-3 {
+  background: var(--black-main);
 }

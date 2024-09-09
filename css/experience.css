@@ -25,6 +25,10 @@
   align-items: center;
 }
 
+.experience-block:hover .company {
+  text-decoration: underline;
+}
+
 .experience .image {
   width: 50%;
   height: 100%;
@@ -40,10 +44,10 @@
   object-fit: fill;
 }
 
-.experience h3.title {
+.experience .title {
   font-size: 23px;
 }
-.experience h5.company {
+.experience .company {
   color: var(--orange-main);
 }
 

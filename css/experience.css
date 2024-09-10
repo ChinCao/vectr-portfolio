@@ -1,5 +1,5 @@
 .experience {
-  background: var(--black-secondary);
+  background: var(--black-two);
 }
 
 .experience .max-width {
@@ -20,7 +20,7 @@
   display: flex;
   width: 543px;
   height: 250px;
-  background: #222;
+  background: var(--black-four);
   flex-direction: row;
   align-items: center;
 }

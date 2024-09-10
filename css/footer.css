@@ -3,6 +3,8 @@ footer {
   font-family: var(--montserrat);
   display: flex;
   justify-content: space-between;
+  background: var(--white-main);
+  color: var(--black-one);
   align-items: center;
   font-size: 12px;
 }

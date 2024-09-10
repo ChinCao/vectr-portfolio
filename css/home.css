@@ -3,7 +3,7 @@
   min-height: 100vh;
   min-width: 100vw;
   position: relative;
-  background: url(../assets/home-main.jpg) black no-repeat;
+  background: url(../assets/home-main.jpg) var(--black-one) no-repeat;
   background-size: cover;
   background-position: 99% 30px;
   background-attachment: fixed;
@@ -54,7 +54,7 @@
 
 .home .btn-contact,
 .home .btn-hire:hover {
-  background: black;
+  background: var(--black-one);
   color: white;
   border-color: white;
 }

@@ -1,5 +1,5 @@
 .contact {
-  background: var(--black-main);
+  background: var(--black-one);
 }
 .contact .max-width {
   justify-content: center;
@@ -32,7 +32,7 @@
 }
 
 .contact .content-container {
-  background: #222;
+  background: var(--black-four);
   padding: 2rem;
   border-radius: 5px;
   display: flex;

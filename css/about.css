@@ -1,5 +1,5 @@
 .about {
-  background: var(--black-secondary);
+  background: var(--black-two);
 }
 
 .about .max-width {
@@ -39,22 +39,28 @@
   justify-content: center;
 }
 
-.about .content-container text {
+.about .content-container .text {
+  font-size: 15px;
   width: 100%;
 }
 
 .about .content-container button {
-  width: 25%;
+  width: max-content;
   outline: none;
   font-size: 15px;
   height: 45px;
+  display: flex;
   cursor: pointer;
   border-radius: 3px;
+  padding: 1em 3em;
   background: var(--orange-main);
+  white-space: nowrap;
+  text-align: center;
   color: var(--white-main);
   border: 1px solid transparent;
   transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out,
     border-color 0.3s ease-in-out;
+  justify-content: center;
 }
 
 .about .content-container button:hover {

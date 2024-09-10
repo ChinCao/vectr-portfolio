@@ -22,7 +22,6 @@
   --open-sans: "Open Sans", sans-serif;
   --montserrat: Montserrat, sans-serif;
   --serif-display: "DM Serif Display", serif;
-  --text-main: #b7b7b7;
   --black-one: rgb(0, 1, 2);
   --black-two: #111111;
   --black-three: #191919;
@@ -101,6 +100,7 @@ section {
   right: 0;
   padding-left: 7px;
   background: var(--black-two);
+  opacity: 1;
 }
 
 .title-container #sub-2 {

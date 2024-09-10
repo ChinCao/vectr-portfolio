@@ -7,7 +7,7 @@
   background-size: cover;
   background-position: 99% 30px;
   background-attachment: fixed;
-  color: white;
+  color: var(--white-main);
   display: flex;
   z-index: 0;
 }
@@ -52,15 +52,19 @@
   transition: var(--transition-main);
 }
 
+.home .btn-hire {
+  background: var(--white-main);
+}
+
 .home .btn-contact,
 .home .btn-hire:hover {
   background: var(--black-one);
-  color: white;
-  border-color: white;
+  color: var(--white-main);
+  border-color: var(--white-main);
 }
 
 .btn-contact a {
-  color: white;
+  color: var(--white-main);
 }
 
 @media (max-width: 780px) {

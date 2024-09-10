@@ -18,7 +18,7 @@ header {
 
 .overlay {
   position: absolute;
-  background: var(--black-main);
+  background: var(--black-one);
   opacity: 0.8;
   width: 100%;
   height: 100%;
@@ -54,7 +54,7 @@ header {
 
 .navigation li a:hover {
   background: var(--white-main);
-  color: var(--black-main);
+  color: var(--black-one);
 }
 
 .navigation #contact {
@@ -64,7 +64,7 @@ header {
 
 .navigation #contact:hover {
   background: var(--white-main);
-  color: var(--black-main);
+  color: var(--black-one);
 }
 
 @media (max-width: 780px) {
@@ -102,6 +102,6 @@ header {
     width: 100%;
     top: 100%;
     left: 0;
-    background: var(--black-main);
+    background: var(--black-one);
   }
 }

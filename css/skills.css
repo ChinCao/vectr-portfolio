@@ -1,5 +1,5 @@
 .skill {
-  background: var(--black-tertiary);
+  background: var(--black-three);
   padding-bottom: calc(6rem - 30px);
 }
 
@@ -19,7 +19,7 @@
 
 .skill .skill-block {
   cursor: pointer;
-  background: #222;
+  background: var(--black-four);
   display: flex;
   padding: 1rem;
   border: 1px solid transparent;

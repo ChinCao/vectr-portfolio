@@ -23,11 +23,12 @@
   --montserrat: Montserrat, sans-serif;
   --serif-display: "DM Serif Display", serif;
   --text-main: #b7b7b7;
-  --black-main: rgb(0, 1, 2);
-  --black-tertiary: #191919;
+  --black-one: rgb(0, 1, 2);
+  --black-two: #111111;
+  --black-three: #191919;
+  --black-four: #222;
   --white-main: #fff;
   --orange-main: #ffae00;
-  --black-secondary: #111111;
   --transition-main: 300ms ease-in-out;
 }
 
@@ -99,13 +100,13 @@ section {
   bottom: 0;
   right: 0;
   padding-left: 7px;
-  background: var(--black-secondary);
+  background: var(--black-two);
 }
 
 .title-container #sub-2 {
-  background: var(--black-tertiary);
+  background: var(--black-three);
 }
 
 .title-container #sub-3 {
-  background: var(--black-main);
+  background: var(--black-one);
 }

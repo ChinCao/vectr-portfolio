@@ -1,4 +1,4 @@
-# Tutorial: Building a Portfolio Website with HTML and CSS 🤓
+# Building a Portfolio Website with HTML and CSS 🤓
 This tutorial teaches you to create a portfolio website using HTML and CSS. Designed for beginners, this guide will walk you through:
 
 - **HTML Basics**: Structure your web pages with essential tags.

@@ -1,11 +1,36 @@
 .skill {
   background: var(--black-three);
-  padding-bottom: calc(6rem - 30px);
 }
 
 .skill .max-width {
   flex-direction: column;
   align-items: center;
+}
+
+.skill img {
+  width: 55px;
+}
+
+.skill .skill-block {
+  width: 300px;
+  height: 300px;
+  cursor: pointer;
+  background: var(--black-four);
+  display: flex;
+  padding: 1rem;
+  border: 1px solid transparent;
+  text-align: center;
+  margin-bottom: 30px;
+  gap: 12px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  transition: var(--transition-main);
+}
+
+.skill .skill-block:hover {
+  border-color: var(--white-main);
+  transform: scale(1.02);
 }
 
 .skill .content-container {
@@ -15,31 +40,4 @@
   width: 100%;
   justify-content: space-evenly;
   gap: 30px;
-}
-
-.skill .skill-block {
-  cursor: pointer;
-  background: var(--black-four);
-  display: flex;
-  padding: 1rem;
-  border: 1px solid transparent;
-  text-align: center;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 30px;
-  gap: 12px;
-  justify-content: center;
-  border-radius: 5px;
-  width: 300px;
-  height: 300px;
-  transition: var(--transition-main);
-}
-
-.skill .skill-block:hover {
-  border-color: var(--white-main);
-  transform: scale(1.02);
-}
-
-.skill img {
-  width: 55px;
 }

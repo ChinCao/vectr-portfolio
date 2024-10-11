@@ -7,16 +7,7 @@
   align-items: center;
 }
 
-.experience .content-container {
-  flex-wrap: wrap;
-  display: flex;
-  gap: 50px;
-  margin-top: 40px;
-  align-items: center;
-  justify-content: center;
-}
-
-.experience-block {
+.experience .experience-block {
   display: flex;
   width: 543px;
   height: 250px;
@@ -25,30 +16,23 @@
   align-items: center;
 }
 
-.experience-block:hover .company {
-  text-decoration: underline;
-}
-
-.experience .image {
+.experience .experience-block .image {
   width: 50%;
   height: 100%;
 }
 
-.experience .text {
-  width: 60%;
-  padding: 1.2em;
-}
-.experience img {
+.experience .experience-block .image img {
   width: 100%;
   height: 100%;
-  object-fit: fill;
+}
+
+.experience .experience-block .text {
+  padding: 1.2em;
+  width: 60%;
 }
 
 .experience .title {
   font-size: 23px;
-}
-.experience .company {
-  color: var(--orange-main);
 }
 
 .experience p {
@@ -58,16 +42,34 @@
   opacity: 0.7;
 }
 
+.experience .company {
+  color: var(--orange-main);
+}
+
+.experience .experience-block:hover .company {
+  text-decoration: underline;
+}
+
+.experience .content-container {
+  flex-wrap: wrap;
+  display: flex;
+  gap: 50px;
+  margin-top: 40px;
+  align-items: center;
+  justify-content: center;
+}
+
 @media (max-width: 600px) {
-  .experience-block {
+  .experience .experience-block {
     height: 100%;
     width: 100%;
     flex-direction: column;
   }
-  .experience .image {
+
+  .experience .experience-block .image {
     width: 100%;
   }
-  .experience .text {
+  .experience .experience-block .text {
     width: 100%;
   }
 }
